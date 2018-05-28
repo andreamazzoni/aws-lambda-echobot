@@ -5,7 +5,7 @@ A simple template to deploy a **serverless telegram bot** on **AWS Lambda**.
 
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot): python wrapper for Telegram Bot API's.
 - [Zappa](https://github.com/Miserlou/Zappa): framework to easy deploy and manage serverless AWS Lambda functions.
-- [Flask](http://flask.pocoo.org/): python framwork
+- [Flask](http://flask.pocoo.org/): python framework
 
 Contacts: andreamazzoni78@gmail.com
 
@@ -45,5 +45,4 @@ Deploy your bot on AWS Lambda with this zappa command: ```zappa deploy dev```. U
 ```
 http://api.telegram.org/bot<your_bot_token>/setWebhook?url=<your_aws_api_endpoint>
 ```
-
 Have fun!
